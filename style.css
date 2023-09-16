@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    /* fonts */
+    --main-font:"Bai Jamjuree", sans-serif;
+    --body-font-size: 18px;
+    /* colors */
+    --strong-cyan: hsl(171, 66%, 44%);
+    --light-blue: hsl(233, 100%, 69%);
+    --main-color: hsl(0, 4%, 64%);
+}
+body{
+    font-size: var(--body-font-size);
+    font-family: var(--main-font);
+    font-weight: 400;
+    min-height: 100vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+p{
+    margin: 0;
+    color: var(--main-color);
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600;
+}
+button{
+    width: 200px;
+    border-radius: 50px;
+    color: white;
+    height: 50px;
+    text-align: center;
+}
+.left-button{
+    background-color: var(--strong-cyan);
+    border-color: var(--strong-cyan);
+}
+.right-button{
+    background-color: var(--light-blue);
+    border-color: var(--light-blue);
+}
+
+/* HEADER */
+header{
+    /* margin: 100px 0; */
+    background-image:url(./images/bg-header-desktop.png) ;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header img{
+    margin: 100px 0 50px;
+    max-width: 150px;
+}
+header p{
+    display: inline-block;
+    max-width: 650px;
+    color: var(--main-color);
+}
+.buttonDiv{
+    margin: 30px 0;
+}
+
+/* SECTION ONE */
+.sectionOne{
+    margin: 150px 0 50px;
+}
+.sectionOne p{
+    display: inline-block;
+    max-width: 700px;
+    margin: 10px 0 0 0;
+}
+
+/* SECTION TWO */
+.sectionTwo .texts{
+    margin-top: 40px;
+}
+.sectionTwo h5{
+    margin: 10px 100px 10px 100px;
+}
+.sectionTwo p{
+    margin: 0 100px 50px;
+    max-width: 400px;
+}
+.sectionTwo img{
+    max-width:100%;
+    margin-left: -50px;
+}
+/* SECTION THREE */
+.sectionThree{
+    margin: 150px 0 50px;
+}
+.sectionThree p{
+    display: inline-block;
+    max-width: 700px;
+    margin: 10px 0 0 0;
+}
+
+/* SECTION FOUR */
+.sectionFour{
+    margin: 100px 0 50px;
+}
+.sectionFour img{
+    max-width: 100%;
+}
+/* SECTION FIVE */
+.sectionFive p{
+    margin: 20px 0;
+}
+
+/* SECTION SIX */
+.sectionSix{
+    margin-top: 100px;
+}
+.sectionSix .col-lg-4{
+    padding: 0;
+}
+.sectionSix .icons{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 30px;
+}
+.sectionSix p{
+    display: inline-block;
+    max-width: 395px;
+}
+
+/* SECTION SEVEN */
+.sectionSeven{
+    margin: 150px 0 100px;
+}
+
+/* SECTION EIGHT */
+.sectionEight{
+    margin-bottom: 100px;
+}
+.sectionEight p{
+    display: inline-block;
+    max-width: 700px;
+    margin: 10px 0 0 0;
+}
+
+/* FOOTER */
+footer {
+    margin: 50px 0;
+}
+footer .logo{
+    width: 50px;
+}
+footer a{
+    text-decoration: none;
+    color: var(--main-color);
+    
+}

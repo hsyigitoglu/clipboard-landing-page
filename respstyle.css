@@ -1,0 +1,35 @@
+@media screen and (max-width: 1200px) {
+    .sectionTwo{
+        text-align: center;
+    }
+    .sectionTwo img{
+        margin-left: 0;
+    }
+    .sectionTwo p{
+        margin:0;
+    }
+}
+@media  screen and (max-width:991px) {
+    .sectionSeven .col-lg-2{
+        margin-bottom: 25px;
+    }
+    .sectionSix p{
+        margin-bottom: 20px;
+    }
+    footer .col-12{
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width:576px) {
+    header {
+        background-image: url(./images/bg-header-mobile.png);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+@media screen and (max-width:421px) {
+    .left-button{
+        margin-bottom: 10px;        
+    }
+}
